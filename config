@@ -11,7 +11,7 @@ exec --no-startup-id wmctrl -c Desktop — Plasma
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 exec --no-startup-id picom -cCFb
 exec --no-startup-id feh --bg-fill /home/chen/Pictures/wallpaper1.png
-
+exec --no-startup-id polybar example
 # >>> Window rules <<<
   # >>> Avoid tiling Plasma popups, dropdown windows, etc. <<<
   # For the first time, manually resize them, i3 will remember the setting for floating windows
